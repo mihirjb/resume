@@ -23,6 +23,8 @@ body { font-family: Georgia; color: #444; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
+
+h3 { color: #d4a017; }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
 a { color: #990003 }
 a:hover { text-decoration: none; }
