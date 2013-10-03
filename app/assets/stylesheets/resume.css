@@ -112,3 +112,8 @@ h2.projecttitle a
 	padding:0px 0px 10px;
 	font-size:24px;
 }
+div.contact-info 
+{
+	font-family: 'Telex', sans-serif;
+	line-height:1.5em;
+}
