@@ -27,13 +27,16 @@ body { font-family: Georgia; color: #444;  background-color: #e9eae5; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
-#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; color:#4383c5 }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
+h3 {
+	font-style:italic;
+}
 
-p { font-size: 100%; line-height: 21px; padding-right: 3em; font-family:'Helvetica','sans-serif';}
-a { color: #990003; text-decoration: none;}
+p { font-size: 100%; line-height: 21px; padding-right: 3em;}
+a { color: #4383c5; text-decoration: none;}
 a:hover { color: #C58917; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
