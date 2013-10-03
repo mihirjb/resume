@@ -95,6 +95,8 @@ table td
 h2.projecttitle a
 {
 	color: #4383c5;
+	font-size:24px;
+	padding:0px 0px 10px;
 }
 .developer-box
 {
@@ -103,4 +105,10 @@ h2.projecttitle a
 	margin-right: 20px;
 	margin-top: 0px;
 	float:left;
+}
+.connect-heading, .edu
+{
+	color:#666;
+	padding:0px 0px 10px;
+	font-size:24px;
 }
