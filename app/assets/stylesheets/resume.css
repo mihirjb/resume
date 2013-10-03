@@ -11,7 +11,7 @@ html
 }
 body { font-family: Georgia; color: #444;  background-color: #e9eae5; }
 #inner { padding: 10px 80px; margin: 80px auto;background-color: #fff;
-	border: 1px solid #ddd;
+	border: 2px solid #d3d4cd;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -28,15 +28,20 @@ body { font-family: Georgia; color: #444;  background-color: #e9eae5; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
-#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; color:#4383c5 }
+#hd h1 { font-size: 52px; text-transform: uppercase; letter-spacing: 3px; color:#4383c5; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
+h1,h2
+{
+	font-family: 'Telex', sans-serif;
+}
 h3 {
 	font-style:italic;
 }
 
-p { font-size: 100%; line-height: 21px; padding-right: 3em;}
+p { font-size: 100%; line-height: 21px; padding-right: 3em;font-family: 'Telex', sans-serif;
+color:#666;}
 a { color: #4383c5; text-decoration: none;}
 a:hover { color: #C58917; }
 strong { font-weight: bold; }
@@ -85,8 +90,17 @@ table td
 {
 	border-bottom:1px solid #ccc;
 	padding:10px 0px;
+	font-family: 'Telex', sans-serif;
 }
 h2.projecttitle a
 {
 	color: #4383c5;
+}
+.developer-box
+{
+	border-radius: 50%;
+	height: 90px;
+	margin-right: 20px;
+	margin-top: 0px;
+	float:left;
 }
